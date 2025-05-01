@@ -105,7 +105,7 @@ By default, the application uses `gpt-4o-mini` for cost-efficient scheduling. To
 2. Change the model parameter:
    ```typescript
    const response = await openai.chat.completions.create({
-     model: 'gpt-4.5-turbo', // Change to desired model
+     model: 'gpt-4.1', // Change to desired model
      // other parameters...
    });
    ```
